@@ -33,7 +33,7 @@ export class AppComponent {
   openDialog() {
     const dialogRef = this.dialog.open(AddEditEmpComponent, {
       height: '',
-      width: '700px',
+      width: '600px',
     });
     dialogRef.afterClosed().subscribe(() => {
       console.log('Dialog close');
